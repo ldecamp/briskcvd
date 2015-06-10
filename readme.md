@@ -19,5 +19,14 @@ This software is an implementation of [1]:
 Installing the Library
 ----------------------
 
+Execute the following commands:
+
+```
+mkdir build && cd build
+cmake ..
+make && sudo make install
+```
+This will build the library and install it. 
+
 Running the BRISK demo 
 ----------------------
