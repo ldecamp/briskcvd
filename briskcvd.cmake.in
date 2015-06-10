@@ -1,0 +1,19 @@
+#######################################################
+# Export path referenced in the system when lib installed
+#######################################################
+# Fast source dir
+set( briskcvd_SOURCE_DIR "@CMAKE_CURRENT_SOURCE_DIR@")
+
+#######################################################
+# Fast build dir
+set( briskcvd_DIR "@CMAKE_CURRENT_BINARY_DIR@")
+
+#######################################################
+set( briskcvd_INCLUDE_DIR  "@briskcvd_INCLUDE_DIR@" )
+set( briskcvd_INCLUDE_DIRS "@briskcvd_INCLUDE_DIR@" )
+
+set( briskcvd_LIBRARIES    "@briskcvd_LIBRARIES@" )
+set( briskcvd_LIBRARY      "@briskcvd_LIBRARIES@" )
+
+set( briskcvd_LIBRARY_DIR  "@briskcvd_LIBRARY_DIR@" )
+set( briskcvd_LIBRARY_DIRS "@briskcvd_LIBRARY_DIR@" )
